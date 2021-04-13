@@ -5,7 +5,7 @@
 #define WINDOWX 1500
 #define WINDOWY 800
 
-#define getrandom(min, max) ((rand()%(int)(((max) + 1) - (min)))+ (min))
+#define getrandom(min, max) ((rand()%(int)(((max) + 1) - (min)))+ (min)) // Forgot to mention that I stole this from Microsoft lol.
 
 
 class Player {
@@ -105,6 +105,7 @@ void renderWalls(WallArray &wallArray, sf::RenderWindow &window) {
 	}
 }
 
+// I tried making this shorter by turning it into one function but I kept getting no collisions so I guess its staying like this.
 bool playerCollision(WallArray &w, Player p) {
 	bool hit = false;
 	for (int i = 0; i < w.size(); i++) {
