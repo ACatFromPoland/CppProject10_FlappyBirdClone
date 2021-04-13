@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.cpp(37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+main.cpp(77): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  5 of 77 functions ( 6.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project10_FlappyBird.vcxproj -> C:\Users\USMCA\Documents\Visual Studio 2015\Projects\Project10_FlappyBird\x64\Release\Project10_FlappyBird.exe
+  Project10_FlappyBird.vcxproj -> C:\Users\USMCA\Documents\Visual Studio 2015\Projects\Project10_FlappyBird\x64\Release\Project10_FlappyBird.pdb (Full PDB)
