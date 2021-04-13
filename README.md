@@ -1,4 +1,4 @@
-# CppProject10_FlappyBirdClone
+# FlappyBirdClone
  
 This is my 10th Project
 
